@@ -55,6 +55,6 @@ if __name__ == "__main__":
 			else:
 				print "\n\tError : Please select from given choices !!!\n"
 
-	except:
+	except Exception,e:
 		print "\n\n System Error! Please Try again after some time! \n\n"
 		is_exit('quit')

@@ -1,4 +1,4 @@
-import os
+import sys
 from print_functions import print_dashline
 
 def is_exit(user_input):
@@ -6,7 +6,7 @@ def is_exit(user_input):
 		print_dashline()
 		print ("\t\t\t\t\t THANKS FOR BROWSING OUR DATABASE!")
 		print_dashline()
-		os._exit(1)
+		sys.exit(1)
 
 def is_empty(l):
 	if len(l) == 0:
